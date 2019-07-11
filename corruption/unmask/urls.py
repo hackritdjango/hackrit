@@ -1,4 +1,4 @@
-from django.conf.urls import url
+from django.conf.urls import url, include
 from django.urls import path
 from unmask.views import first,login,signup,home,complaint,notification,helpdesk,profile
 
@@ -11,4 +11,5 @@ urlpatterns= [
 	path('unmask/login/notification',notification,name='notification'),
 	path('unmask/login/helpdesk',helpdesk,name='helpdesk'),
 	path('unmask/login/profile',profile,name='profile'),
+	#url('^unmask/login/notifications/', include(notifications.urls, namespace='notifications')),
 ]
