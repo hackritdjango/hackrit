@@ -24,5 +24,7 @@ class Complaint(TimeStampedModel):
 		return self.name
 
 class Compuser(AbstractBaseUser):
+	name = models.CharField(max_length=200)
+	address = models.TextField()
 	identity_card_type = models.CharField(max_length=200)
 	identity_card_no = models.CharField(max_length=200)
