@@ -8,17 +8,17 @@ def first(request):
 def login(request):
 	return render(request, 'unmask/login.html',{})
 def signup(request):
-	if request.method == "POST":
-		form = SignupForm(request.POST)
-		print(request.POST)
-		if form.is_valid():
-			post = form.save(commit=False)
-			post.author = request.user
-			post.save()
-			return redirect('first')
-	else:
-		form = SignupForm()
-		return render(request, 'unmask/signup.html',{'form': form})
+#	if request.method == "POST":
+	#	form = SignupForm(request.POST)
+	#	print(request.POST)
+	#	if form.is_valid():
+		#	post = form.save(commit=False)
+		#	post.author = request.user
+		#	post.save()
+		#	return redirect('first')
+	#else:
+	form = SignupForm()
+	return render(request, 'unmask/signup.html',{})
 def home(request):
 	return render(request, 'unmask/home.html',{})
 def complaint(request):
