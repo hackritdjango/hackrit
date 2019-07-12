@@ -10,4 +10,4 @@ class ComplaintForm(forms.ModelForm):
 class SignupForm(forms.ModelForm):
 	class Meta:
 		model = Compuser
-		fields = ('name', 'address', 'identity_card_type', 'identity_card_no', 'password' )
+		fields = ('first_name', 'last_name' ,'username','address', 'identity_card_type', 'identity_card_no', 'email' ,'password' )

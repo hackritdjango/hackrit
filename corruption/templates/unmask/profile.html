@@ -1,9 +1,31 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>profile</title>
+	<link rel="stylesheet" href="{% static "unmask/profile.css" %}">
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 </head>
 <body>
-ola
+		<img src="{% static "unmask/logo.png" %}" style="width:100px;height:100px; position: absolute;">
+        <div class="topnav">
+            <a href="home">Home</a>
+            <a href="complaint">Complaint</a>
+            <a  href="notification">Notification</a>
+            <a href="helpdesk">HelpDesk</a>
+            <a class="active" href="profile.">Profile</a>
+          </div>
+      <img src="index.jpeg" style="width: 500px;height:500px; position :fixed; top:150px;">
+      <div class="upro">
+        Name <br>
+        Address<br>
+        Email<br>
+        Phone<br>
+        Identity card type<br>
+        Identity card no <br>
+      </div>
 </body>
 </html>

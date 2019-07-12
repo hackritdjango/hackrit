@@ -30,17 +30,3 @@
     background-color: #4CAF50;
     color: white;
   }
-
-.table1 {
-  position: fixed;
-  left: 30%;
-  top: 40%;
-  padding: 50px;
-}
-
-  .fm {
-    position: absolute;
-    top: 200px;
-    left : 50%;
-
-  }

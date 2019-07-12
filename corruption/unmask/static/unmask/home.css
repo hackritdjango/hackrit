@@ -1,0 +1,248 @@
+img {
+  border-radius: 50%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #389c74;
+}
+
+.box{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  display: flex;
+}
+.box:hover{
+  box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+.box .imgbx
+{
+  width:150px;
+  flex: 0 0 150px;
+}
+.box .imgbx img{
+  max-width: 100%;
+}
+.box .content{
+  padding-left: 20px;
+
+}
+.box .content p{
+  margin: 0;
+  padding: 10px 0 0;
+  text-align: justify;
+}
+
+
+
+img {
+  border-radius: 50%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #389c74;
+}
+.box2{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  box-sizing:b;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  display: flex;
+}
+.box2:hover{
+  box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+.box2 .imgbx2
+{
+  width:150px;
+  flex: 0 0 150px;
+}
+.box2 .imgbx2 img{
+  max-width: 100%;
+}
+.box2 .content2{
+  padding-left: 20px;
+
+}
+.box2 .content2 p{
+  margin: 0;
+  padding: 10px 0 0;
+  text-align: justify;
+}
+
+
+img {
+  border-radius: 50%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #389c74;
+}
+ .box3{
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  display: flex;
+}
+.box3:hover{
+  box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+.box3 .imgbx3
+{
+  width:150px;
+  flex: 0 0 150px;
+}
+.box3 .imgbx3 img{
+  max-width: 100%;
+}
+.box3 .content3{
+  padding-left: 20px;
+
+}
+.box3 .content3 p{
+  margin: 0;
+  padding: 10px 0 0;
+  text-align: justify;
+}
+
+
+
+img {
+  border-radius: 50%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #389c74;
+}
+.box4{
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  display: flex;
+}
+.box4:hover{
+  box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+.box4 .imgbx4
+{
+  width:150px;
+  flex: 0 0 150px;
+}
+.box4 .imgbx4 img{
+  max-width: 100%;
+}
+.box4 .content4{
+  padding-left: 20px;
+
+}
+.box4 .content4 p{
+  margin: 0;
+  padding: 10px 0 0;
+  text-align: justify;
+}
+
+
+img {
+  border-radius: 50%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #389c74;
+}
+.wrap .box5{
+  position: absolute;
+  top: 175%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  display: flex;
+}
+.box5:hover{
+  box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+.box5 .imgbx5
+{
+  width:150px;
+  flex: 0 0 150px;
+}
+.box5 .imgbx5 img{
+  max-width: 100%;
+}
+.box5 .content5{
+  padding-left: 20px;
+
+}
+.box5 .content5 p{
+  margin: 0;
+  padding: 10px 0 0;
+  text-align: justify;
+}
+
+
+
+.topnav {
+    background-color: #333;
+    position: absolute;
+    left: 125px;
+    overflow: visible;
+    top:47px;
+    
+  }
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 17px 78px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+

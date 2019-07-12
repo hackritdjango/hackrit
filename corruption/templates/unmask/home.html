@@ -1,18 +1,86 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="home.css">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{% static "unmask/home.css" %}">
 </head>
 <body>
-	<img src="un mask(2)">
-<div class="topnav">
+
+    <img src="{% static "unmas/logo.png" %}" style="width:100px; height:100px; position: absolute;" >
+    <div class="wrap">
+  <div class="topnav">
             <a class="active" href="#home">Home</a>
 
-            <a  href="#news">Complaint</a>
-            <a href="#contact">Notification</a>
-            <a href="#about">HelpDesk</a>
-            <a href="#profile">Profile</a>
+            <a  href="complaint">Complaint</a>
+            <a href="notification">Notification</a>
+            <a href="helpdesk">HelpDesk</a>
+            <a href="profile">Profile</a>
           </div>
+
+<div class="box">
+    <div class="imgbx">
+        <img src="{% static "unmask/agriculture.png" %}">
+    </div>
+    <div class="content"> 
+        <p>The DAC&FW is organized into 27 Divisions and has five attached offices and twenty-one subordinate offices which are spread across the country for coordination with state level agencies and implementation of Central Sector Schemes in their respective fields.
+Further, one Public Sector Undertakings,nine autonomous bodies, ten nationallevel cooperative organizations and two authorities are functioning under the administrative control of the Department.</p>
+<a href="complaint" >Click Here</a>
+    </div>
+    
+</div>
+
+<div class="box2">
+    <div class="imgbx2">
+        <img src="{% static "unmask/industry.jpg" %}">
+    </div>
+    <div class="content2"> 
+        <p>The mandate of the Department of Commerce is regulation, development and promotion
+of India’s international trade and commerce through formulation of appropriate
+international trade & commercial policy and implementation of the various provisions
+thereof. The basic role of the Department is to facilitate the creation of an enabling
+environment and infrastructure for accelerated growth of international trade.</p>
+<a href="complaint" >Click Here</a>
+    </div>
+    
+</div>
+
+
+<div class="box3">
+    <div class="imgbx3">
+        <img src="{% static "unmask/police.jpg" %}">
+    </div>
+    <div class="content3"> 
+        <p>The Ministry of Home Affairs (MHA) discharges multifarious responsibilities, the important among them being - internal security, border management, Centre-State relations, administration of Union Territories, management of Central Armed Police Forces, disaster management, etc. Though in terms of Entries 1 and 2 of List II – ‘State List’ – in the Seventh Schedule to the Constitution of India, ‘public order’ and ‘police’ are the responsibilities of States, Article 355 of the Constitution enjoins the Union to protect every State against external aggression and internal disturbance and to ensure that the Government of every State is carried on in accordance with the provisions of the Constitution.</p>
+        <a href="complaint" >Click Here</a>
+    </div>
+    
+</div>
+
+
+<div class="box4">
+    <div class="imgbx4">
+        <img src="law.png">
+    </div>
+    <div class="content4"> 
+        <p>Ministry of Law and Justice is the oldest limb of the Government of India dating back to 1833 when the Charter Act 1833 enacted by the British Parliament. The said Act vested for the first time legislative power in a single authority, namely the Governor General in Council. By virtue of this authority and the authority vested under him under section 22 of the Indian Councils Act 1861 the Governor General in Council enacted laws for the country from 1834 to 1920.</p>
+        <a href="complaint" >Click Here</a>
+    </div>
+    
+</div>
+
+<div class="box5">
+    <div class="imgbx5">
+        <img src="{% static "unmask/human.jpeg" %}">
+    </div>
+    <div class="content5"> 
+        <p>The essence of Human Resource Development is education, which plays a significant and remedial role in balancing the socio-economic fabric of the Country. Since citizens of India are its most valuable resource, our billion-strong nation needs the nurture and care in the form of basic education to achieve a better quality of life. This warrants an all-round development of our citizens, which can be achieved by building strong foundations in education. In pursuance of this mission, the Ministry of Human Resource Development (MHRD) was created on September 26, 1985, through the 174th amendment to the Government of India (Allocation of Business) Rules, 1961. </p>
+        <a href="complaint" >Click Here</a>
+    </div>
+    
+</div>
+</div>
+
 </body>
 </html>

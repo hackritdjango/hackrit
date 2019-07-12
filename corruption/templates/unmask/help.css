@@ -31,15 +31,21 @@
     color: white;
   }
 
-.table1 {
-  position: fixed;
-  left: 30%;
-  top: 40%;
-  padding: 50px;
-}
+ /* Style the search box */
+#mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
 
-  .fm {
+.help {
     position: fixed;
     top: 200px;
-    left : 50%;
-  }
+    left: 300px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
